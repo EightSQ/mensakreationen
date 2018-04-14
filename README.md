@@ -2,6 +2,7 @@
 
 a python based single-serving-site that serves interesting dishes based on a markov-chain generator based on real world dishes.
 
+You can enjoy a live demo [here](https://electronvo.lt/mensakreationen).
 Enjoy!
 
 ## Usage
@@ -12,4 +13,3 @@ Then it is as simple as
 
 ## And the data?
 I do not know, whether I am allowed to include the real dish-name data I have scraped. To replicate this, you will need a file called `speisen2.txt` (you can use a another name, make sure you modify the CMD directive in the `Dockerfile` accordingly) with your dishnames separated with newlines and without any parentheses or quotation marks (because the package **markovify** will fail on those characters).
-But soon you can enjoy a live demo [here](https://electronvo.lt/mensakreationen).
