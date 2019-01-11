@@ -2,3 +2,6 @@ README.md
 .DS_Store
 speisen.txt
 LICENSE
+run.sh
+.gitignore
+.git/
