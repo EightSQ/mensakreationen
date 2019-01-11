@@ -1,8 +1,7 @@
-from python:stretch
+FROM python:3.7-alpine
 
-COPY requirements.txt /opt/app/requirements.txt
 WORKDIR /opt/app
-RUN pip install -r requirements.txt
 COPY . /opt/app
+RUN pip install -r requirements.txt
 
-CMD ["python", "kreationen.py", "speisen2.txt"]
+ENTRYPOINT ["python", "kreationen.py", "speisen2.txt"]
