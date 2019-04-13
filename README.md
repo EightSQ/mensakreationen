@@ -2,7 +2,7 @@
 
 a python based single-serving-site that serves interesting dishes based on a markov-chain generator based on real world dishes.
 
-You can enjoy a live demo [here](https://electronvo.lt/mensakreationen).
+You can enjoy a live demo [here](https://8sq.de/mensakreationen).
 Enjoy!
 
 ## Usage
